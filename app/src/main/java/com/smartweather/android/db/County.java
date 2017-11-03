@@ -16,6 +16,16 @@ public class County extends DataSupport {
     private String countyName;
     //县的代码
     private int countyCode;
+    //县的市
+    private int cityId;
+
+    public int getCityId() {
+        return cityId;
+    }
+
+    public void setCityId(int cityId) {
+        this.cityId = cityId;
+    }
 
     public int getId() {
         return id;

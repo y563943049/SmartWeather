@@ -16,6 +16,16 @@ public class City extends DataSupport{
     private String cityName;
     //城市代码
     private int cityCode;
+    //城市的省份
+    private int provinceId;
+
+    public int getProvinceId() {
+        return provinceId;
+    }
+
+    public void setProvinceId(int provinceId) {
+        this.provinceId = provinceId;
+    }
 
     public int getId() {
         return id;
